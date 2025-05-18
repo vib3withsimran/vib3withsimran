@@ -1,9 +1,4 @@
-- 👋 Hi, I’m @vib3withsimran
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning web development
-- 📫 How to reach me - message me on LinkedIn 
-- 😄 Pronouns: she/her
-- ⚡ Fun fact: I'm on the journey to be my better version.
+
 # 💫 About Me:
 - 👋 Hi, I’m @vib3withsimran<br>- 👀 I’m interested in coding<br>- 🌱 I’m currently learning web development<br>- 📫 How to reach me - message me on LinkedIn <br>- 😄 Pronouns: she/her<br>- ⚡ Fun fact: I'm on the journey to be my better version.<br>
 
