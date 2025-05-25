@@ -1,11 +1,4 @@
 
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-
-###
-
-
 # 💫 About Me:
 - 👋 Hi, I’m @vib3withsimran<br>- 👀 I’m interested in coding<br>- 🌱 I’m currently learning web development<br>- 📫 How to reach me - message me on LinkedIn <br>- 😄 Pronouns: she/her<br>- ⚡ Fun fact: I'm on the journey to be my better version.<br>
 
