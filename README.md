@@ -1,23 +1,45 @@
+## Hi there! 👋
 
-# 💫 About Me:
-- 👋 Hi, I’m @vib3withsimran<br>- 👀 I’m interested in coding<br>- 🌱 I’m currently learning web development and C++ <br>- 📫 How to reach me - message me on LinkedIn <br>- 😄 Pronouns: she/her<br>- ⚡ Fun fact: I'm on the journey to be my better version.<br>
+I'm **Simran Gupta**, a passionate developer with a knack for building efficient web applications. I love exploring new technologies and transforming ideas into reality!
 
+## About Me
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Vib3with.simran) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mssimran) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mssimran093@gmail.com) 
+- 👋 Hi, I’m @vib3withsimran
+- 👀 I’m interested in coding
+- 🌱 I’m currently learning web development and C++
+- 📫 How to reach me - message me on LinkedIn
+- 😄 Pronouns: she/her
+- ⚡ Fun fact: I'm on the journey to be my better version.
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=vib3withsimran&theme=merko&hide_border=false&include_all_commits=false&count_private=false)<br/>
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=vib3withsimran&theme=dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)</br>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=vib3withsimran&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## Skills & Technologies
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+nodejs,react,cpp,c,js,html,css,bootstrap,tailwind,py,figma,mysql,mongodb
 
----
-[![](https://visitcount.itsvg.in/api?id=vib3withsimran&icon=2&color=4)](https://visitcount.itsvg.in)
+## Top Projects
 
+- [Shortly](https://github.com/vib3withsimran/Shortly) - A URL shortening service. ⭐ 0 | Language: CSS | Issues: 0 
+- [Tic-Tac-Toe](https://github.com/vib3withsimran/tic-tac-toe) - A classic game built using JavaScript. ⭐ 0 | Language: JavaScript | Issues: 0 
+- [Portfolio](https://github.com/vib3withsimran/Portfolio) - My personal portfolio showcasing my work. ⭐ 0 | Language: HTML | Issues: 0 
+- [Weather-Forecast](https://github.com/vib3withsimran/Weather-Forecast) - A simple weather forecasting application. ⭐ 0 | Language: JavaScript | Issues: 0
 
+## GitHub Stats
 
+🌟 **Public Repositories**: 10  
+👥 **Followers**: 1  
+➡️ **Following**: 0  
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vib3withsimran&show_icons=true&theme=radical)
+
+## Recent Activity
+
+- Pushed updates to [Shortly](https://github.com/vib3withsimran/Shortly) on 2025-11-22  
+- Pushed updates to [Tic-Tac-Toe](https://github.com/vib3withsimran/tic-tac-toe) on 2025-11-10  
+- Updated [Portfolio](https://github.com/vib3withsimran/Portfolio) on 2025-11-03  
+- Created new branch in [Shortly](https://github.com/vib3withsimran/Shortly) on 2025-11-21  
+- Joined the [LazySheeps](https://github.com/riyamittal12426/LazySheeps) organization on 2025-11-08
+
+## Connect with Me
+
+- linkedin: https://www.linkedin.com/in/mssimran/
+
+- X: https://x.com/Simran142007
