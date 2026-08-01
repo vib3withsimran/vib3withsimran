@@ -1,3 +1,7 @@
+permissions:
+  contents: write
+  actions: read
+
 name: Generate trophy card
 
 on:
@@ -8,7 +12,7 @@ on:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -16,12 +20,15 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: generate trophy.svg
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
           file: dist/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TROPHY_PAT }}
           theme: dracula
           max-rows: 1
           margin-width: 8
