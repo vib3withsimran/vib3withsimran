@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/main/header.svg" width="100%" alt="Simran Gupta — Web Developer, AI Enthusiast, C++ Programmer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/main/dark.svg">
+    <img src="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/main/light.svg" width="100%" alt="Simran Gupta — Full Stack Developer — animated profile banner">
+  </picture>
 </p>
 
 # Hi there! 👋
@@ -53,10 +56,11 @@ I'm **Simran Gupta**, a passionate developer with a knack for building efficient
 
 # 📊 GitHub Stats:
 <div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=vib3withsimran&theme=radical&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub stats"><br>
-  <img src="https://streak-stats.demolab.com/?user=vib3withsimran&theme=radical&hide_border=false" alt="GitHub streak stats"><br>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=vib3withsimran&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top languages"><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vib3withsimran&theme=radical&area=true&hide_border=true" width="100%" alt="GitHub activity graph">
+  <img src="https://streak-stats.demolab.com/?user=vib3withsimran&background=0A101F&border=223052&ring=22D3EE&fire=10B981&currStreakNum=A78BFA&currStreakLabel=22D3EE&sideNums=22D3EE&sideLabels=C9D4E8&dates=8A97B8" width="100%" alt="GitHub Streak"><br>
+  <img src="https://github-readme-stats.shion.dev/api?username=vib3withsimran&show_icons=true&hide_rank=true&include_all_commits=true&bg_color=0A101F&title_color=A78BFA&text_color=C9D4E8&icon_color=22D3EE&border_color=223052" width="49%" alt="GitHub Stats">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=vib3withsimran&layout=compact&langs_count=8&bg_color=0A101F&title_color=A78BFA&text_color=C9D4E8&border_color=223052" width="49%" alt="Top Languages">
+  <br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vib3withsimran&bg_color=0A101F&color=A78BFA&line=22D3EE&point=10B981&area_color=1E2C4C&title_color=22D3EE&hide_border=true&area=true" width="100%" alt="GitHub activity graph">
 </div>
 
 # 🏆 GitHub Trophies
@@ -65,12 +69,12 @@ I'm **Simran Gupta**, a passionate developer with a knack for building efficient
   <img src="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/trophy-output/trophy.svg" height="150" alt="trophy graph"  />
 </div>
 
-# 🎯 GitHub Consistency
+# 🐍 GitHub Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/pacman-output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/pacman-output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/snake-output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/snake-output/github-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/snake-output/github-snake.svg">
 </picture>
 
 # ✍️ Random Dev Quote
