@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Simran Gupta - Web Developer, AI Enthusiast, C++ Programmer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1335"/>
+      <stop offset="55%" stop-color="#120c26"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FE428E"/>
+      <stop offset="50%" stop-color="#A9FEF7"/>
+      <stop offset="100%" stop-color="#FFFE7A"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="85%" cy="12%" r="45%">
+      <stop offset="0%" stop-color="#FE428E" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FE428E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="8%" cy="95%" r="50%">
+      <stop offset="0%" stop-color="#7A6FF0" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7A6FF0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#bgGrad)"/>
+  <rect width="900" height="260" fill="url(#glow1)"/>
+  <rect width="900" height="260" fill="url(#glow2)"/>
+
+  <!-- subtle grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="65" x2="900" y2="65"/>
+    <line x1="0" y1="130" x2="900" y2="130"/>
+    <line x1="0" y1="195" x2="900" y2="195"/>
+  </g>
+
+  <!-- decorative shapes -->
+  <circle cx="830" cy="30" r="70" fill="none" stroke="#FE428E" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="60" cy="225" r="46" fill="none" stroke="#A9FEF7" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="812" cy="208" r="12" fill="#FFFE7A" opacity="0.6"/>
+  <circle cx="780" cy="196" r="4" fill="#FFFE7A" opacity="0.4"/>
+
+  <text x="50" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Simran Gupta</text>
+  <text x="52" y="148" font-family="Consolas, Menlo, monospace" font-size="23" fill="url(#textGrad)">Web Developer  •  AI Enthusiast  •  C++ Programmer</text>
+  <text x="52" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#9aa4b2">Building efficient web applications &amp; transforming ideas into reality</text>
+
+  <rect x="52" y="226" width="120" height="4" rx="2" fill="url(#textGrad)"/>
+</svg>
