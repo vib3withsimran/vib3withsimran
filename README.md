@@ -53,7 +53,6 @@ I'm **Simran Gupta**, a passionate developer with a knack for building efficient
 
 # 📊 GitHub Stats:
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=vib3withsimran&style=for-the-badge&color=FE428E" alt="Profile views"><br>
   <img src="https://github-readme-stats.shion.dev/api?username=vib3withsimran&theme=radical&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub stats"><br>
   <img src="https://streak-stats.demolab.com/?user=vib3withsimran&theme=radical&hide_border=false" alt="GitHub streak stats"><br>
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=vib3withsimran&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top languages"><br>
