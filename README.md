@@ -21,7 +21,7 @@ I'm **Simran Gupta**, a passionate developer with a knack for building efficient
 😄 Pronouns: she/her
 
 # 🌐 Connect with Me:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/vib3with.simran) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mssimran/) [![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/Simran142007) [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=%23FF7139)](https://simran-os-portfolio.netlify.app/) [![email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mssimran093@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vib3with.simran)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&logoColor=white)](https://www.linkedin.com/in/mssimran/)&nbsp;&nbsp;[![X](https://img.shields.io/badge/X-0A101F?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Simran142007)&nbsp;&nbsp;[![Portfolio](https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=firefox&logoColor=white)](https://simran-os-portfolio.netlify.app/)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mssimran093@gmail.com)
 
 # 🚀 Currently Building:
 
@@ -76,6 +76,17 @@ I'm **Simran Gupta**, a passionate developer with a knack for building efficient
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/snake-output/github-snake.svg">
   <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/vib3withsimran/vib3withsimran/snake-output/github-snake.svg">
 </picture>
+
+# 🏅 GSSoC 2026
+
+<div align="center">
+  <a href="https://gssoc.girlscript.org/profile/6ea84c93-6344-4507-a256-efb36b07b3ed"><img src="https://gssoc.girlscript.org/badges/milestone/gssoc_champion.png" width="150" alt="GSSoC 2026 Champion badge"></a>
+  <a href="https://gssoc.girlscript.org/profile/6ea84c93-6344-4507-a256-efb36b07b3ed"><img src="https://gssoc.girlscript.org/badges/milestone/legend.png" width="150" alt="GSSoC 2026 Legend badge"></a>
+  <a href="https://gssoc.girlscript.org/profile/6ea84c93-6344-4507-a256-efb36b07b3ed"><img src="https://gssoc.girlscript.org/badges/milestone/elite.png" width="150" alt="GSSoC 2026 Elite badge"></a>
+  <a href="https://gssoc.girlscript.org/profile/6ea84c93-6344-4507-a256-efb36b07b3ed"><img src="https://gssoc.girlscript.org/badges/milestone/prolific.png" width="150" alt="GSSoC 2026 Prolific badge"></a>
+  <a href="https://gssoc.girlscript.org/profile/6ea84c93-6344-4507-a256-efb36b07b3ed"><img src="https://gssoc.girlscript.org/badges/milestone/power_contributor.png" width="150" alt="GSSoC 2026 Power Contributor badge"></a>
+  <a href="https://gssoc.girlscript.org/profile/6ea84c93-6344-4507-a256-efb36b07b3ed"><img src="https://gssoc.girlscript.org/badges/milestone/top_100.png" width="150" alt="GSSoC 2026 Top 100 badge"></a>
+</div>
 
 # ✍️ Random Dev Quote
 ![Random Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
