@@ -29,7 +29,7 @@ jobs:
           username: ${{ github.repository_owner }}
           file: dist/trophy.svg
           token: ${{ secrets.TROPHY_PAT }}
-          theme: algolia
+          theme: dark
           max-rows: 1
           margin-width: 8
           margin-height: 8

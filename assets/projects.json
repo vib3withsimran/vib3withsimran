@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "repo": "StayHub",
+      "description": "Property rental platform — a full-stack web application for browsing, creating, editing, and managing property listings."
+    },
+    {
+      "repo": "ExplainLikeMyTeacher",
+      "description": "AI-powered learning assistant that explains concepts like a patient teacher."
+    },
+    {
+      "repo": "SafeWalk",
+      "description": "Community safety navigation app for safer walks."
+    },
+    {
+      "repo": "DocPulse-Intelligence",
+      "description": "Document intelligence — extract, analyze, and understand documents with AI."
+    },
+    {
+      "repo": "Prompt-improver-extension",
+      "description": "Chrome extension (MV3) that improves your AI prompts before you send them."
+    }
+  ]
+}
