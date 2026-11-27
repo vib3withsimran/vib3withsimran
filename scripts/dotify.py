@@ -75,7 +75,8 @@ def square_crop(img, fx: float, fy: float):
 def load_grid(path: Path, cols: int, contrast: float, gamma: float,
               cell_aspect: float, square: bool = False,
               focus: tuple[float, float] = (0.5, 0.5),
-              equalize: bool = False, detail: float = 0.0):
+              equalize: bool = False, detail: float = 0.0,
+              alpha_cut: float = 0.5):
     """Return (width, height, lum[y][x] in 0..1, rgb[y][x]).
 
     If the source has an alpha channel it is treated as a subject cutout: the
@@ -128,16 +129,19 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
     small_c = img.resize((cols, rows), Image.Resampling.LANCZOS)
 
     gp, cp = small_g.load(), small_c.load()
-    rgb, lum = [], []
+    mp = small_m.load() if mask is not None else None
+    rgb, lum, subj = [], [], []
     for y in range(rows):
-        rgb_row, lum_row = [], []
+        rgb_row, lum_row, subj_row = [], [], []
         for x in range(cols):
             rgb_row.append(cp[x, y])
             v = gp[x, y] / 255.0
             lum_row.append(min(1.0, max(0.0, v ** gamma)))
+            subj_row.append(mp is None or mp[x, y] > alpha_cut * 255)
         rgb.append(rgb_row)
         lum.append(lum_row)
-    return cols, rows, lum, rgb
+        subj.append(subj_row)
+    return cols, rows, lum, rgb, subj
 
 
 def circle_falloff(x, y, cols, rows, feather=0.06):
@@ -192,7 +196,7 @@ def svg_header(w, h, rows, opts):
     )
 
 
-def build_dots(cols, rows, lum, rgb, theme, opts):
+def build_dots(cols, rows, lum, rgb, theme, opts, subj=None):
     fg, dim, _ = THEMES[theme]
     cell = opts.cell
     max_r = cell * 0.5 * opts.dot_scale
@@ -201,6 +205,11 @@ def build_dots(cols, rows, lum, rgb, theme, opts):
     for y in range(rows):
         row = []
         for x in range(cols):
+            # Outside a cutout subject there is nothing to draw. Inverting
+            # would otherwise turn the flattened transparent background into
+            # full-size dots and bury the portrait under a solid block.
+            if subj is not None and not subj[y][x]:
+                continue
             v = lum[y][x]
             if opts.invert:
                 v = 1 - v
@@ -231,7 +240,7 @@ def build_dots(cols, rows, lum, rgb, theme, opts):
     return "".join(out), cols * cell, rows * cell
 
 
-def build_binary(cols, rows, lum, rgb, theme, opts):
+def build_binary(cols, rows, lum, rgb, theme, opts, subj=None):
     fg, dim, _ = THEMES[theme]
     cell = opts.cell
     lanes = opts.lanes
@@ -242,6 +251,8 @@ def build_binary(cols, rows, lum, rgb, theme, opts):
     for y in range(rows):
         row = []
         for x in range(cols):
+            if subj is not None and not subj[y][x]:
+                continue
             v = lum[y][x]
             if opts.invert:
                 v = 1 - v
@@ -330,6 +341,11 @@ def main(argv=None):
     p.add_argument("--gamma", type=float, default=1.0,
                    help="<1 brightens midtones, >1 darkens them")
     p.add_argument("--contrast", type=float, default=1.25)
+    p.add_argument("--alpha-cut", type=float, default=0.5, metavar="F",
+                   help="treat alpha below this fraction as outside the subject "
+                        "(default 0.5). A cutout's feathered edge is dark once "
+                        "flattened onto black, so --equalize lifts it into a "
+                        "pale halo; raising this to ~0.9 trims that fringe")
     p.add_argument("--equalize", action="store_true",
                    help="equalise against the subject's own histogram — the fix "
                         "for a lit face against dark hair losing all shadow detail")
@@ -387,10 +403,11 @@ def main(argv=None):
         sys.exit(f"--focus wants two numbers like 0.55,0.42 (got {args.focus!r})")
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    cols, rows, lum, rgb = load_grid(args.image, args.cols, args.contrast,
-                                     args.gamma, args.cell_aspect,
-                                     args.square, (fx, fy),
-                                     args.equalize, args.detail)
+    cols, rows, lum, rgb, subj = load_grid(args.image, args.cols, args.contrast,
+                                           args.gamma, args.cell_aspect,
+                                           args.square, (fx, fy),
+                                           args.equalize, args.detail,
+                                           args.alpha_cut)
 
     if args.color and args.ink != 1.0:
         # Ink only: luminance already decided the dot sizes, and darkening that
@@ -412,7 +429,7 @@ def main(argv=None):
     # renders would be byte-identical. Emit one theme-neutral file instead.
     themes = ("dark",) if args.color else ("dark", "light")
     for theme in themes:
-        body, w, h = builder(cols, rows, lum, rgb, theme, args)
+        body, w, h = builder(cols, rows, lum, rgb, theme, args, subj)
         svg = svg_header(w, h, rows, args) + body + "</g></svg>"
         stem = args.out.name if args.color else f"{args.out.name}-{theme}"
         dest = args.out.with_name(f"{stem}.svg")

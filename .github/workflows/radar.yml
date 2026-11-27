@@ -41,7 +41,8 @@ jobs:
             --limit 7 --values --curve 0.4 \
             --exclude "shell,makefile,dockerfile,batchfile,procfile"
 
-      # Self-hosted stat and repo cards
+      # Self-hosted stat, trophy and repo cards (replaces the third-party
+      # github-profile-trophy action, which is broken upstream and exits 3)
       - name: Stat and repo cards
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
