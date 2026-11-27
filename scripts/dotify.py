@@ -7,9 +7,15 @@ Usage
     python scripts/dotify.py me.jpg -o assets/portrait
     python scripts/dotify.py me.jpg -o assets/portrait --mode binary --cols 64
     python scripts/dotify.py me.jpg -o assets/portrait --circle --animate --color
+    python scripts/dotify.py me.jpg -o assets/portrait --color --ink 0.7
 
 Writes <out>-dark.svg and <out>-light.svg so the README can swap them with
 <picture> + prefers-color-scheme. Also writes <out>.txt for the text modes.
+
+With --color the photo supplies the dot colours, so one render fits any
+background. A photo lit against white needs darker ink to read there: run a
+second time with --ink (e.g. 0.7) and give it its own output name for the
+light-theme file.
 
 Modes
 -----
@@ -348,6 +354,11 @@ def main(argv=None):
                    help="mask to a circle (avatar style)")
     p.add_argument("--color", action="store_true",
                    help="tint each dot with the source pixel colour")
+    p.add_argument("--ink", type=float, default=1.0, metavar="F",
+                   help="multiply the --color dot colours (default 1.0). Photo "
+                        "colours are often too pale against a white background, "
+                        "so a light-theme render wants ~0.7; leaves dot sizes "
+                        "untouched. No effect without --color")
     p.add_argument("--animate", action="store_true",
                    help="add a slow shimmer sweeping across the columns")
     p.add_argument("--lanes", type=int, default=14, help="shimmer stagger groups")
@@ -380,6 +391,13 @@ def main(argv=None):
                                      args.gamma, args.cell_aspect,
                                      args.square, (fx, fy),
                                      args.equalize, args.detail)
+
+    if args.color and args.ink != 1.0:
+        # Ink only: luminance already decided the dot sizes, and darkening that
+        # too would shrink every dot instead of just deepening its colour.
+        f = max(0.0, args.ink)
+        rgb = [[tuple(min(255, round(c * f)) for c in px) for px in row]
+               for row in rgb]
 
     if args.mode in ("ascii", "braille"):
         text = (build_ascii if args.mode == "ascii" else build_braille)(
